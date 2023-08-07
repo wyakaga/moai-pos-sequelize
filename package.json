@@ -1,0 +1,42 @@
+{
+	"name": "moai-pos",
+	"version": "1.0.0",
+	"description": "POS(point of sale) API",
+	"main": "index.js",
+	"engines": {
+		"node": "18.x"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"lint": "npx eslint src/**/*.js"
+	},
+	"author": "wyakaga",
+	"license": "MIT",
+	"devDependencies": {
+		"@faker-js/faker": "^8.0.2",
+		"morgan": "^1.10.0",
+		"nodemon": "^3.0.1",
+		"sequelize-cli": "^6.6.1"
+	},
+	"dependencies": {
+		"bcrypt": "^5.1.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"helmet": "^7.0.0",
+		"jsonwebtoken": "^9.0.1",
+		"mongoose": "^7.4.2",
+		"pg": "^8.11.2",
+		"pg-hstore": "^2.3.4",
+		"sequelize": "^6.32.1"
+	},
+	"keywords": [
+		"point-of-sale",
+		"POS",
+		"sequelize",
+		"express",
+		"API",
+		"transactions"
+	]
+}
